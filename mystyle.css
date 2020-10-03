@@ -1,0 +1,109 @@
+
+
+.navbar
+{
+  background-color:#071A71;
+  font-size: 18px;
+  border-color:#C7CCE3; 
+}
+.navbar-inverse .navbar-brand
+{
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav a:hover
+{
+  color: #071A71 !important;
+  /background-color: #43A9D3;/
+  background-color: #C7CCE3 !important;
+  font-family: 'Arvo', serif;
+}
+.navbar-inverse .navbar-nav li a
+{
+   font-family: 'Arvo', serif;
+   color: #C8EFF4 ;
+}
+}
+html{
+	scroll-behavior: smooth;
+
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+nav
+{
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+}
+ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+li
+{
+	float: left;
+
+}
+a{
+	padding: 20px;
+	width: 200px;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+#section1
+{
+	height:100%;
+	background-image: url('space5.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	display: inline-block;
+	width:100%;
+}
+#section2
+{
+	height:100%;
+	background-image: url('space3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	display: inline-block;
+	width:100%;
+}
+#section3
+{
+	height:100%;
+	background-image: url('space4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+	display: inline-block;
+	width:100%;
+}
+h1
+{
+	margin: 100px;
+	text-align: center;
+	padding: 0;
+}
+#image
+{
+	border: 5px;
+	border-style: solid;
+	border-color: white;
+	height: 30%;
+	width:40%;
+}
