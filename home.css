@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EFE6EF ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  background-image: url("pangif.gif");
+  background-repeat: no-repeat;
+  height: 350px;
+  width: auto;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.image-container .text {
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  font-size: 50px; 
+  font-weight: bold;
+  font-family: 'Audiowide';
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar
+{
+  background-color:#071A71;
+  font-size: 18px;
+  border-color:#C7CCE3; 
+}
+.navbar-inverse .navbar-brand
+{
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav a:hover
+{
+  color: #071A71 !important;
+  /*background-color: #43A9D3;*/
+  background-color: #C7CCE3 !important;
+  font-family: 'Arvo', serif;
+}
+.navbar-inverse .navbar-nav li a
+{
+   font-family: 'Arvo', serif;
+   color: #C8EFF4 ;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 10;
+    width:100%;
+    height:100%;
+}
+
+.carousel-caption .a {
+    vertical-align: right;
+    text-align:center;
+    font-size: 70px;
+    font-family: 'Allerta Stencil';
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    float: right;
+    padding-top: 60px;
+    padding-left: 20px;
+    padding-right: 400px;
+}
+@media screen and (max-width: 411px){
+     .carousel-caption .a {
+        font-size: 70px }}
+@media screen and (width: 768px){
+     .carousel-caption .a {
+        font-size: 50px ;
+        padding-left: 3px;}}
+.carousel-caption .b{
+    vertical-align: middle;
+    text-align:center;
+    font-size: 70px;
+    font-family: 'Allerta Stencil';
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    float: right;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 300px;
+}
+@media screen and (max-width: 411px){
+     .carousel-caption .b {
+        font-size: 25px ;
+        padding-left: 3px;}}
+@media screen and (width: 768px){
+     .carousel-caption .b {
+        font-size: 50px ;
+        padding-left: 3px;}}
+.carousel-caption .c {
+    vertical-align: middle;
+    text-align:center;
+     font-family: 'Allerta Stencil';
+    color: white;
+    font-size: 70px;
+    text-shadow: 2px 2px 4px #000000;
+    float: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 310px;
+}
+@media screen and (max-width: 411px){
+     .carousel-caption .c {
+        font-size: 25px;
+        padding-top: 150px;
+    padding-left: 3px;
+    padding-right: 5px; }}
+    @media screen and (width: 768px){
+     .carousel-caption .c {
+        font-size: 50px ;
+        padding-top: 350px;
+        padding-left: 3px;}}
+.carousel-caption .d{
+    vertical-align: middle;
+    text-align:center;
+    font-size: 70px;
+    font-family: 'Allerta Stencil';
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    float: center;
+    padding-top: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 411px){
+     .carousel-caption .d {
+        font-size: 25px ;
+        padding-left: 3px;}}
+@media screen and (width: 768px){
+     .carousel-caption .d {
+        font-size: 50px ;
+        padding-left: 3px;}}
