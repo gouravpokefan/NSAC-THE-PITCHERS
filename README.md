@@ -1,3 +1,2 @@
 "# NSAC-THE-PITCHERS" 
-"# NSAC-THE-PITCHERS" 
-"# NSAC-THE-PITCHERS" 
+This is a website.
