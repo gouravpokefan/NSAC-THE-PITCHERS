@@ -1,0 +1,512 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+*{
+    margin: 0;
+    padding:0;
+     box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Arvo', serif;
+}
+
+.navbar
+{
+  background-color:#071A71;
+  font-size: 18px;
+  border-color:#C7CCE3; 
+}
+.navbar-inverse .navbar-brand
+{
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav a:hover
+{
+  color: #071A71 !important;
+  /*background-color: #43A9D3;*/
+  background-color: #C7CCE3 !important;
+  font-family: 'Arvo', serif;
+}
+.navbar-inverse .navbar-nav li a
+{
+   font-family: 'Arvo', serif;
+   color: #C8EFF4 ;
+}
+
+
+/* bot */
+
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('./img/hubble.jpeg') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+
+
+
+.display-3 {
+    color:white;
+     font-size: 516%; 
+    display:block;
+   margin: auto;
+   padding: auto;
+}
+
+
+/* bot */
+
+
+
+
+
+#name{
+    display:flex;
+    flex-direction: column;
+    /* padding :3px 200px; */
+    height:400px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+#name::before{
+   content: "";
+    background-image:url("https://i.gifer.com/M0eY.gif");
+    object-fit: cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    /* height: 475px; */
+    height:100%;
+    width:100%;
+    z-index: -1;
+   background-size: 100% 100%;
+   bottom: 0px;
+} 
+
+.first{
+    background-color: rgb(201, 198, 198);
+}
+
+
+.display-3{
+    animation: type 3s steps(9);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right:2px solid #34495e;
+    width:9ch;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+@media only screen and (max-width: 768px) {
+  #name::before{
+      height:110%;
+     
+  }
+}
+
+@keyframes type{
+    0%{
+        width:0ch;
+    }
+    100%{
+        width:9ch;
+    }
+}
+
+.display-3 h1{
+    text-align:center;
+    font-family: 'Arvo', serif;
+}
+
+
+
+
+#client-section{
+    display: flex;
+    width: auto;
+    margin-top: 0px;
+    background-color:#0E0D0DEF;
+}
+
+#client-section1{
+    display: flex;
+    width: auto;
+    margin-top: 0px;
+    background-color:#252525;
+}
+
+#client-section1 .media{
+    background-color:rgba(24, 22, 22, 0.562) ;
+}
+
+.h{
+    text-align: center;
+    font-size: 200%;
+    font-weight: lighter;
+    color:rgb(209, 216, 216);
+    background-color: #071A71;
+    padding: 1%;
+    margin: 0px;
+    font-family: 'Arvo', serif;
+}
+
+.media{
+    display:flex;
+    flex-direction:column;
+    border: 2px solid rgb(124, 121, 121);
+    padding: 34px 20px 34px 20px;
+    margin: 38px 15px;
+    border-radius: 10px;
+    background: #252525;
+    margin-top: 53px;
+    width: fit-content;
+    color:whitesmoke;
+    
+
+}
+
+.media .check{
+    display:flex;
+    flex-direction:column;
+    border: 2px solid #071A71;
+    padding: 34px;
+    margin: 38px 28px;
+    border-radius: 10px;
+    background: #252525;
+    margin-top: 53px;
+    width: fit-content;
+    color:whitesmoke;
+
+}
+
+.media img{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    bottom:0%;
+    z-index: 1;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 113%;
+}
+
+#client-section .media-left1 img{
+     height: 250px;
+    width: 200px;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+ .flex .media-left img{
+    display: inline-block;
+     height: 200px;
+    width: 200px;
+    position: relative;
+    bottom:50%;
+    left:50%;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#client-section1 .media{
+    position: relative;
+    border: 2px solid rgb(124, 121, 121);;
+    padding: 34px 20px 34px 20px;
+    margin: 53px 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+.media-object{
+     height: 233px;
+     width: 254px;
+     padding: 0px;
+     margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.media-body{
+    width: 50px;
+    padding-top: 30px;
+}
+
+.media:hover{
+  transform: scale(1) ;
+  border-color:rgb(17, 13, 13);
+  box-shadow: 0 0 1.2rem white;
+  
+}
+
+
+
+.sec{
+    height:498px;
+    width:100%;
+    background-color:black; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec .mg{
+    height:250px;
+    width:200px;
+    border:2px solid black;
+    border-radius: 5%;
+    margin:2px;
+    cursor: pointer;
+     -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	-moz-transition:  0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out,transform 0.3s ease-in-out ;
+}
+.mg1{
+ background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2032a.jpg");
+    animation: slider 10s infinite linear;
+     object-fit: cover;
+}
+.mg2{
+ background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/10-24_by_the_numbers_-_mission_stats.jpg");
+    animation: slider2 10s infinite linear;
+     object-fit: cover;
+}
+.mg3{
+     background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia19836-ngc2174.jpg");
+    animation: slider3 10s infinite linear;
+     object-fit: cover;
+}
+.mg4{
+     background-image: url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/bhfeedback.jpg");
+    animation: slider4 10s infinite linear;
+     object-fit: cover;
+}
+
+.sec .cen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mg:hover {
+	transform: scale(1.05); 
+}
+
+
+#image{
+     height: 300px;
+     width: 250px;
+      display:flex;
+      margin: auto; 
+      justify-content: center;
+      align-items:center;
+      margin-top: 90px;
+      margin-bottom: 106px;
+      background-color:#d6e0f0;
+}
+hr{
+    opacity: 0.7;
+    font-family: 'Arvo', serif;
+}
+
+@media only screen and (max-width: 480px) {
+  .sec{
+      flex-direction: column;
+       height:1037px;
+       width:100%;
+  }
+  
+}
+
+@media only screen and (max-width: 900px) {
+  .sec{
+      flex-direction: column;
+       height:1037px;
+       width:100%;
+  }
+  
+}
+
+
+@media only screen and (max-width: 440px) {
+  .sec .cen{
+      flex-direction: column;
+       height:1037px;
+       width:100%;
+  }
+  
+}
+
+
+
+
+@keyframes slider{
+    0%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/stsci-h-p2042a-f-horiz.jpg");
+        object-fit: cover;
+    }
+    25%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2030a.jpg");
+        object-fit: cover;
+    }
+    50%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2032a.jpg");
+        object-fit: cover;
+    }
+    75%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/location-smaller.png");
+        object-fit: cover;
+    }
+    100%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/stsci-h-p2031a-f-2478x1094.png");
+        object-fit: cover;
+    }
+}
+
+
+@keyframes slider2{
+    0%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/k2-c16-ffi-with-earth-cropped.jpg");
+    }
+    25%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/10-24_by_the_numbers_-_mission_stats.jpg");
+    }
+    50%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/452b_artistconcept_beautyshot.jpg");
+    }
+    75%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/kepler444_image_0.jpg");
+    }
+    100%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/pia18837-a-exoneptunetransit.jpg");
+    }
+}
+
+
+@keyframes slider3{
+    0%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/ssc2019-15b_med.jpg");
+    }
+    25%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia20645_main.jpg");
+    }
+    50%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia19836-ngc2174.jpg");
+    }
+    75%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/pia18847-ngc1291.jpg");
+    }
+    100%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/pia18468.jpg");
+    }
+}
+
+
+@keyframes slider4{
+    0%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/9702946_1041x755.jpg");
+    }
+    25%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/tycho.jpg");
+    }
+    50%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/perseus_200319.jpg");
+    }
+    75%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/archives_cartwheel.jpg");
+    }
+    100%{
+        background-image:url("https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/bhfeedback.jpg");
+    }
+}
+
+
+ 
+.sec h3{
+text-align: center;
+color:rgb(245, 240, 240);
+padding:10px 90px 143px 91px;
+font-family: 'Arvo', serif;
+}
+
+
+
+
+/* utility class */
+
+.center{
+    text-align:center;
+   
+}
+.h-primary{
+   font-family: 'Arvo', serif;
+    font-size: 4.8rem;
+    padding: 2px;
+    /* border:2px solid black; */
+    color: rgb(56, 52, 52);
+}
+.h-sec{
+    font-family: 'Arvo', serif;
+    font-size: 2.8rem; 
+}

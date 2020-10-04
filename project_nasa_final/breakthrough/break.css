@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #EFE6EF ;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.image-container {
+  background-image: url("1.jpg");
+  background-repeat: no-repeat;
+  height: 350px;
+  width: auto;
+  background-size: 100% 100%;
+  position: relative;
+}
+
+.image-container .text {
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  font-size: 50px; 
+  font-weight: bold;
+  font-family: 'Audiowide';
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.navbar
+{
+  background-color:#071A71;
+  font-size: 18px;
+  border-color:#C7CCE3; 
+}
+.navbar-inverse .navbar-brand
+{
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav a:hover
+{
+  color: #071A71 !important;
+  /*background-color: #43A9D3;*/
+  background-color: #C7CCE3 !important;
+  font-family: 'Arvo', serif;
+}
+.navbar-inverse .navbar-nav li a
+{
+   font-family: 'Arvo', serif;
+   color: #C8EFF4 ;
+}
+
+
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+  background-color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 60%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 40%;
+  padding: 20px;
+  padding-top: 55px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+.xlarge-font {
+  font-size: 64px
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+.image-container {
+  background-image: url("breakgif.gif");
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.text {
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+  font-size: 6vw; 
+  font-weight: bold;
+  font-family: 'Black Ops One';
+  margin: 0 auto;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ /* mix-blend-mode: screen;*/
+}
+.buttona {
+         background-color: #3AD56A;
+         border: none;
+         color: white;
+         padding: 20px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         text-decoration: none;
+         }
+         .buttonb {
+         background-color: red;
+         border: none;
+         color: white;
+         padding: 20px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         text-decoration: none;
+         }
+.buttonc {
+         background-color: #3A90D5 ;
+         border: none;
+         color: white;
+         padding: 20px 20px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 20px;
+         margin: 4px 2px;
+         cursor: pointer;
+         text-decoration: none;
+         }
+</style>

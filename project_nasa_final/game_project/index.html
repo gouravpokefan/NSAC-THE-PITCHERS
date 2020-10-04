@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leopard@^1/dist/index.min.css"/>
+    <link rel="stylesheet"  href="./index.css">
+  </head>
+  <body>
+  <div class="topnav" id="myTopnav">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="Home.html">BEYOND SPACE</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="../Home.html">Home</a></li>
+          <li><a href="../voyeger/nasa.html">Voyager</a></li>
+          <li><a href="../telescope/telescope.html">Telescope</a></li>
+          <li><a href="">Space Game</a></li>
+          <li><a href="../breakthrough/breakthrough.html">Breakthrough</a></li>
+          <li><a href="#Contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+    <button id="greenFlag">Green Flag</button>
+    <div id="project" style="height: 100px;" style="width: 100px;"></div>
+
+    <script type="module">
+      import project from "./index.js";
+
+      project.attach("#project");
+
+      document.querySelector("#greenFlag").addEventListener("click", () => {
+        project.greenFlag();
+      });
+
+      // Autoplay
+      project.greenFlag();
+
+      function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.navbar
+{
+  background-color:#071A71;
+  font-size: 18px;
+  border-color:#C7CCE3; 
+}
+.navbar-inverse .navbar-brand
+{
+  color: whitesmoke;
+  font-family: Arial;
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav a:hover
+{
+  color: #071A71 !important;
+  /*background-color: #43A9D3;*/
+  background-color: #C7CCE3 !important;
+  font-family: 'Arvo', serif;
+}
+.navbar-inverse .navbar-nav li a
+{
+   font-family: 'Arvo', serif;
+   color: #C8EFF4 ;
+}
+
+#project{
+  height: 100%;
+  width: 100%;
+}
+svg{
+  height: 100%;
+}

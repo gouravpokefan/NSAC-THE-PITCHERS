@@ -1,0 +1,27 @@
+
+
+#client-section{
+    flex-direction: column;
+    width: auto;
+    margin-top: 0px;
+    
+}
+.media{
+    margin: 53px 26px;
+}
+#client-section1{
+    flex-direction: column;
+    width: auto;
+    margin-top: 0px;
+    
+}
+
+@media only screen and (max-width: 430px) {
+  .media-object{
+      height:209px;
+      width:183px;
+}
+}
+
+
+
